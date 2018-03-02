@@ -1,0 +1,200 @@
+body {
+    background-color:#b30000;
+
+    
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  
+  transform: translateY(4px);
+}
+.number:hover {background-color: #4d4dff}
+
+.number:active {
+  background-color: blue;
+  
+  transform: translateY(4px);
+}
+.equals:hover {background-color:#ff1a1a }
+
+.equals:active {
+ 
+  
+  transform: translateY(4px);
+}
+.reset:hover {background-color: #ff1a1a}
+
+.reset:active {
+  
+  
+  transform: translateY(4px);
+}
+ .delete:hover {background-color: #ff1a1a}
+
+.delete:active {
+  
+  
+  transform: translateY(4px);
+}
+ 
+
+
+.container {
+    
+    
+    height: 550px;
+    width: 350px;
+    border: 1px solid rgb(77, 76, 76);
+    border-radius: 6px;
+    position: relative;
+    top: 60px;
+    left: 60%;
+    background: -webkit-linear-gradient(green, yellow);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+    height: 40px;
+    padding: 10px 0;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.input {
+    height: 10%;
+    text-align: left;
+    width: 250px;
+    padding: 10px;
+    text-overflow: clip;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: rgb(32, 32, 32);
+    font-size: 3em;
+    color: yellow;
+    position: relative;
+    left: 38px;
+    top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+.result {
+    height: 10%;
+    font-size: 3em;
+    text-align: left;
+    position: relative;
+    left: 38px;
+    top: 10px;
+    width: 250px;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*
+.screen {
+    background-color: white;
+    width: 300px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.screen input {
+    position: relative;
+    height: 60px;
+    width: 300px;
+    color: black;
+    background-color: rgb(29, 152, 156);
+    font-size: 35px;
+    text-align: right;
+}*/
+
+.buttons {
+    position: relative;
+    top: 20px;
+    left: 25px;
+
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+    border-bottom: 2px solid rgb(44, 44, 44);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.number {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    border-bottom: 2px solid rgb(44, 44, 44);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.delete {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-bottom: 2px solid rgb(44, 44, 44);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reset {
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-bottom: 2px solid rgb(44, 44, 44);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.equals {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    font-size:30px;
+    background-color: red;
+    border-bottom: 2px solid rgb(44, 44, 44);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 140px;
+    bottom: 50px;
+}
+
+p {
+    line-height: 25px;
+}
